@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный интернет-магазин "Комфорт"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .book {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background: #fff;
+            display: inline-block;
+            width: calc(30% - 20px);
+        }
+        .book img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Книжный интернет-магазин "Комфорт"</h1>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#catalog">Каталог</a>
+            <a href="#container">Регистрация</a>
+            <a href="#basket">Корзина</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Добро пожаловать в наш интернет-магазин "Комфорт"!</h2>
+            <p>Здесь вы сможете приобрести ВСЕ КНИГИ, которые только пожелаете</p>
+<div class="container">
+        <section id="catalog">
+
+
+            <h2>Наш Каталог</h2>
+            <div class="book">
+                <img src="https://avatars.mds.yandex.net/get-mpic/1924580/img_id3437931445776136493.jpeg/optimize">
+                <h3>Книга "Мёртвые души"</h3>
+                <p>257 ₽</p>
+                <button>Купить</button>
+            </div>
+            <div class="book">
+                <img src="https://avatars.mds.yandex.net/get-mpic/7547708/img_id6473760044291279435.jpeg/optimize" >
+                <h3>Книга "Капитанская дочка"</h3>
+                <p>279 ₽</p>
+                <button>Купить</button>
+            </div>
+            <div class="book">
+                <img src="https://avatars.mds.yandex.net/get-mpic/4448884/img_id3622760400635579015.jpeg/optimize" >
+                <h3>Книга "Исповедь капитана"</h3>
+                <p>265 ₽</p>
+                <button>Купить</button>
+            </div>
+            <div class="book">
+                <img src="https://avatars.mds.yandex.net/get-mpic/4399709/2a0000019200a30b1ca180b9d4255c7403dc/optimize" >
+                <h3>Книга "Идиот"</h3>
+                <p>378 ₽</p>
+                <button>Купить</button>
+            </div>
+        </section>
+        <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Регистрация</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    max-width: 400px;
+                    margin: auto;
+                    background: white;
+                    padding: 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                h2 {
+                    text-align: center;
+                }
+                .form-group {
+                    margin-bottom: 15px;
+                }
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                input[type="text"],
+                input[type="email"],
+                input[type="password"] {
+                    width: 100%;
+                    padding: 8px;
+                    box-sizing: border-box;
+                }
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #A28981;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #A28981;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="container">
+            <section id="container"></section>
+            <h2>Регистрация</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Введите ваше имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Введите e-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Введите пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Подтвердите пароль:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit">Готово</button>
+            </form>
+        </div>
+        
+        <!DOCTYPE html>
+        <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Корзина</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    max-width: 600px;
+                    margin: auto;
+                    background: white;
+                    padding: 20px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                h2 {
+                    text-align: center;
+                }
+                .item {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    border-bottom: 1px solid #ddd;
+                }
+                .item:last-child {
+                    border-bottom: none;
+                }
+                .item img {
+                    width: 100px; /* Ширина изображения */
+                    height: auto; /* Автоматическая высота */
+                    margin-right: 20px; /* Отступ справа от изображения */
+                }
+                .item-details {
+                    flex-grow: 1; /* Занять оставшееся пространство */
+                }
+                .total {
+                    font-weight: bold;
+                    margin-top: 20px;
+                    text-align: right;
+                }
+                button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #A28981;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+                button:hover {
+                    background-color: #A28981;
+                }
+                .back-button {
+                    background-color: #A28981;
+                }
+                .back-button:hover {
+                    background-color: #A28981;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="basket">
+            <h2>Моя Корзина</h2>
+            
+            <div class="item">
+                <section id="basket"></section>
+                <img src="https://avatars.mds.yandex.net/get-mpic/1924580/img_id3437931445776136493.jpeg/optimize" alt="Книга Мёртвые души"> 
+                <div class="item-details">
+                    <h3>Книга "Мёртвые души"</h3>
+                    <p>Цена: 257 ₽</p>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="https://avatars.mds.yandex.net/get-mpic/7547708/img_id6473760044291279435.jpeg/optimize" alt="Книга Капитанская дочка">
+                <div class="item-details">
+                    <h3>Книга "Капитанская дочка"</h3>
+                    <p>Цена: 279 ₽</p>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="https://avatars.mds.yandex.net/get-mpic/4399709/2a0000019200a30b1ca180b9d4255c7403dc/optimize" alt="Книга Идиот"> 
+                <div class="item-details">
+                    <h3>Книга "Идиот"</h3>
+                    <p>Цена: 378 ₽</p>
+                </div>
+            </div>
+        
+            <div class="total">Итого: 914 ₽</div>
+        
+            <button type="button" onclick="location.href='checkout.html';">Оформить заказ</button>
+            <button type="button" class="back-button" onclick="location.href='index.html';">Вернуться </button>
+        </div>
+        
+        </body>
+        </html>
